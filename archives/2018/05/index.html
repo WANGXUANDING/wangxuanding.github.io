@@ -126,6 +126,24 @@
 
   <title>归档 | 君莫笑</title>
   
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '',
+      xfbml      : true,
+      version    : 'v2.10'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/zh_Hans/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
 
 
 
@@ -302,7 +320,7 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/站控/" itemprop="url">
+            <a class="post-title-link" href="/半夜打字/" itemprop="url">
               
                 <span itemprop="name">睡不着的时候，还是来打字吧</span>
               
